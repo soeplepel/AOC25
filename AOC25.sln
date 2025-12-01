@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secret_Entrance_01_12", "Secret_Entrance_01_12\Secret_Entrance_01_12.csproj", "{B215E3EA-8681-46CC-891F-1D1C3B1DA4C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_SecretEntrance", "01_SecretEntrance\01_SecretEntrance.csproj", "{FBE89D06-EA9C-4CA7-B88B-BDD17C93ED2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuzzleInputChecker", "PuzzleInputChecker\PuzzleInputChecker.csproj", "{ED594F9A-B433-4F5A-8A60-00A2A8E69394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B215E3EA-8681-46CC-891F-1D1C3B1DA4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B215E3EA-8681-46CC-891F-1D1C3B1DA4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B215E3EA-8681-46CC-891F-1D1C3B1DA4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B215E3EA-8681-46CC-891F-1D1C3B1DA4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE89D06-EA9C-4CA7-B88B-BDD17C93ED2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE89D06-EA9C-4CA7-B88B-BDD17C93ED2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE89D06-EA9C-4CA7-B88B-BDD17C93ED2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE89D06-EA9C-4CA7-B88B-BDD17C93ED2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED594F9A-B433-4F5A-8A60-00A2A8E69394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED594F9A-B433-4F5A-8A60-00A2A8E69394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED594F9A-B433-4F5A-8A60-00A2A8E69394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED594F9A-B433-4F5A-8A60-00A2A8E69394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
