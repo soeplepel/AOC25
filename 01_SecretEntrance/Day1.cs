@@ -9,7 +9,7 @@
 
             _input = input.Split("\r\n");
         }
-        //positive modulo result
+        //positive modulo result, build in  is not positive ^^ 
         private static int Mod(int x, int m)
         {
             return (x % m + m) % m;
