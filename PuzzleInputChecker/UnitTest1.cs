@@ -11,8 +11,8 @@ namespace PuzzleInputChecker
 
 
         [Theory]
-        [InlineData("..\\..\\..\\TestData\\Sample_1.txt", 3)]
-        [InlineData("..\\..\\..\\TestData\\input_1.txt", 1048)]
+        [InlineData("..\\..\\..\\..\\..\\TestData\\Sample_1.txt", 3)]
+        [InlineData("..\\..\\..\\..\\..\\TestData\\input_1.txt", 1048)]
         public void SecretEntranceExample(string input, int expected)
         {
             //arrange
