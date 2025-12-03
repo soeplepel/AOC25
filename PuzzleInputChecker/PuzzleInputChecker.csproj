@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\01_SecretEntrance\01_SecretEntrance.csproj" />
     <ProjectReference Include="..\02_GiftShop\02_GiftShop.csproj" />
+    <ProjectReference Include="..\03_Lobby\03_Lobby.csproj" />
   </ItemGroup>
 
   <ItemGroup>
