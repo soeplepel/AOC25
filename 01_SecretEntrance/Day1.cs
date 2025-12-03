@@ -7,10 +7,10 @@
         public Day1(string input)
         {
 
-            _input = input.Split("\r\n");
+            _input = input.Split("\n",options: StringSplitOptions.RemoveEmptyEntries);
         }
-        //positive modulo result, build in  is not positive ^^ 
-        private static int Mod(int x, int m)
+        
+        private static int ModPos(int x, int m)
         {
             return (x % m + m) % m;
         }
@@ -30,7 +30,7 @@
                 {
                     start -= number;
                 }
-                start = Mod(start, 100);
+                start = ModPos(start, 100);
                 if (start == 0)
                 {
                     countZero++;
