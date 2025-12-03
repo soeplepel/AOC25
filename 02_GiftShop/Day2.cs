@@ -9,6 +9,7 @@
             _input = input.Split(",", options: StringSplitOptions.RemoveEmptyEntries);
         }
 
+        // brute force i guess
         private bool Invalid(UInt64 num)
         {
             var strNum = num.ToString();
@@ -41,13 +42,11 @@
 
                 while(num <= end)
                 {
-                   
                     if(Invalid(num))
                     {
                         sum += num;
                     }
                     num++;
-
                 }
                 
             }
