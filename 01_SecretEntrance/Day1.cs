@@ -2,12 +2,12 @@
 {
     public class Day1
     {
-        private readonly string[] _input;
+        private readonly string[] _lines;
 
         public Day1(string input)
         {
 
-            _input = input.Split("\n",options: StringSplitOptions.RemoveEmptyEntries);
+            _lines = input.Split("\n",options: StringSplitOptions.RemoveEmptyEntries);
         }
         
         private static int ModPos(int x, int m)
@@ -17,10 +17,10 @@
         public int Calculate(int start = 50)
         {
             var countZero = 0;
-            foreach (var input in _input)
+            foreach (var line in _lines)
             {
-                var operand = input[..1].ToLower();
-                var number = Convert.ToInt32(input[1..]);
+                var operand = line[..1].ToLower();
+                var number = Convert.ToInt32(line[1..]);
 
                 if (operand == "r")
                 {

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_SecretEntrance", "01_Sec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuzzleInputChecker", "PuzzleInputChecker\PuzzleInputChecker.csproj", "{ED594F9A-B433-4F5A-8A60-00A2A8E69394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_GiftShop", "02_GiftShop\02_GiftShop.csproj", "{FEF326BC-D09D-4B28-B967-53357B6F96FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ED594F9A-B433-4F5A-8A60-00A2A8E69394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED594F9A-B433-4F5A-8A60-00A2A8E69394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED594F9A-B433-4F5A-8A60-00A2A8E69394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF326BC-D09D-4B28-B967-53357B6F96FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF326BC-D09D-4B28-B967-53357B6F96FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF326BC-D09D-4B28-B967-53357B6F96FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF326BC-D09D-4B28-B967-53357B6F96FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

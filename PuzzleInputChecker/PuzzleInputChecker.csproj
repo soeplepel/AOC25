@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01_SecretEntrance\01_SecretEntrance.csproj" />
+    <ProjectReference Include="..\02_GiftShop\02_GiftShop.csproj" />
   </ItemGroup>
 
   <ItemGroup>
