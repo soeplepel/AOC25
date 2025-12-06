@@ -13,8 +13,8 @@ namespace PuzzleInputChecker
     {
         [Theory]
         [InlineData("..\\..\\..\\..\\..\\TestData\\Sample_3.txt", 357)]
-       // [InlineData("..\\..\\..\\..\\..\\TestData\\input_3.txt", )]
-        public void GiftShop(string path, int result)
+        [InlineData("..\\..\\..\\..\\..\\TestData\\input_3.txt",17095 )]
+        public void GiftShop(string path, UInt64 result)
         {
             //aarrange
             var str = File.ReadAllText(path);
