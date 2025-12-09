@@ -14,7 +14,7 @@ namespace PuzzleInputChecker
         [Theory]
         [InlineData("..\\..\\..\\..\\..\\TestData\\Sample_2.txt", 1227775554)]
         [InlineData("..\\..\\..\\..\\..\\TestData\\input_2.txt", 53420042388)]
-        public void GiftShop(string path, UInt64 result)
+        public void GiftShopUnitTest(string path, UInt64 result)
         {
             //aarrange
            var str = File.ReadAllText(path);

@@ -1,5 +1,4 @@
-﻿using _02_GiftShop;
-using _03_Lobby;
+﻿using _04_PrintingDepartment;
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
@@ -9,18 +8,18 @@ using System.Threading.Tasks;
 
 namespace PuzzleInputChecker
 {
-    public class UnitTest3
+    public class UnitTest4
     {
         [Theory]
-        [InlineData("..\\..\\..\\..\\..\\TestData\\Sample_3.txt", 357)]
-        [InlineData("..\\..\\..\\..\\..\\TestData\\input_3.txt",17095 )]
-        public void LobbyUnitTest(string path, UInt64 result)
+        [InlineData("..\\..\\..\\..\\..\\TestData\\Sample_4.txt", 13)]
+        [InlineData("..\\..\\..\\..\\..\\TestData\\input_4.txt", 1587)]
+        public void LobbyUnitTest(string path, int result)
         {
             //aarrange
             var str = File.ReadAllText(path);
 
             //act
-            Day3 day = new Day3(str);
+            Day4 day = new Day4(str);
             var exampleResult = day.Calculate();
 
             //assert
